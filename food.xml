@@ -1,0 +1,135 @@
+<AbsoluteLayout
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <TextView
+            android:layout_width="376dp"
+            android:layout_height="82dp"
+            android:layout_x="14dp"
+            android:layout_y="28dp"
+            android:gravity="center"
+            android:text="Cafe Coffee Day"
+            android:textColor="#0F0F0B"
+            android:textSize="36sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/c1"
+            android:layout_width="105dp"
+            android:layout_height="95dp"
+            android:layout_x="28dp"
+            android:layout_y="118dp"
+            android:background="@drawable/coffee"
+            android:textColor="#940707"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="118dp"
+            android:layout_height="44dp"
+            android:layout_x="228dp"
+            android:layout_y="133dp"
+            android:gravity="center"
+            android:text="Coffee"
+            android:textColor="#07DDF3"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/c2"
+            android:layout_width="106dp"
+            android:layout_height="89dp"
+            android:layout_x="29dp"
+            android:layout_y="223dp"
+            android:background="@drawable/tea"
+            android:textColor="#940707"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="128dp"
+            android:layout_height="39dp"
+            android:layout_x="229dp"
+            android:layout_y="232dp"
+            android:gravity="center"
+            android:text="Tea"
+            android:textColor="#07DDF3"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/c3"
+            android:layout_width="97dp"
+            android:layout_height="91dp"
+            android:layout_x="28dp"
+            android:layout_y="319dp"
+            android:background="@drawable/cocktail"
+            android:textColor="#940707"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="36dp"
+            android:layout_x="230dp"
+            android:layout_y="349dp"
+            android:gravity="center"
+            android:text="Cocktail"
+            android:textColor="#07DDF3"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/c4"
+            android:layout_width="130dp"
+            android:layout_height="93dp"
+            android:layout_x="25dp"
+            android:layout_y="426dp"
+            android:background="@drawable/pizza"
+            android:textColor="#940707"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="36dp"
+            android:layout_x="227dp"
+            android:layout_y="448dp"
+            android:gravity="center"
+            android:text="Pizza"
+            android:textColor="#07DDF3"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/c5"
+            android:layout_width="130dp"
+            android:layout_height="81dp"
+            android:layout_x="32dp"
+            android:layout_y="536dp"
+            android:background="@drawable/sandwich"
+            android:textColor="#940707"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="118dp"
+            android:layout_height="36dp"
+            android:layout_x="227dp"
+            android:layout_y="554dp"
+            android:gravity="center"
+            android:text="Sandwich"
+            android:textColor="#07DDF3"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_x="115dp"
+            android:layout_y="634dp"
+            android:background="#F8CCDE"
+            android:text="Order"
+            android:textColor="#940707"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+</AbsoluteLayout>
